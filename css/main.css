@@ -37,10 +37,6 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
-.photoheadshot {
-    max-width: 150px;
-
-}
 
 .contact {
     display: inline;
@@ -57,6 +53,13 @@ p{
     -webkit-box-shadow: -8px 8px #000000;
     box-shadow: -8px 8px #000000;
 }
+#profile-photo {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -66px;
+}
+
 .column .contact p {
     margin-left: auto;
     margin-right: auto;
@@ -207,8 +210,8 @@ hr{
     max-width: 720px;
 }
 #about-detail .row .column {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 
@@ -274,4 +277,14 @@ hr{
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+}
+.software li{
+	display: inline;
+}
+
+
+.software {
+    padding-left: 30px;
+
+
 }
